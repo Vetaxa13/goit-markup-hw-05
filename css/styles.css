@@ -586,9 +586,7 @@ img {
   letter-spacing: 0.04em;
   margin-bottom: 4px;
 }
-.review-form-field-wrapper {
-  margin-bottom: 26px;
-}
+
 .review-form-input-wrapper {
   position: relative;
 }
@@ -618,9 +616,7 @@ img {
 .review-form-field:focus + .review-form-field-icon {
   fill: #4d5ae5;
 }
-.review-form-field-wrapper {
-  margin-bottom: 16px;
-}
+
 .review-form-message {
   width: 100%;
   height: 120px;
@@ -673,11 +669,14 @@ img {
 .privacy-policy-link {
   color: var(--IRIS, #4d5ae5);
 }
+.review-form-checkbox:checked {
+  border: none;
+}
 .review-form-checkbox:checked
   + .review-form-checkbox-label
   .review-form-own-checkbox {
-  border: none;
   fill: #f4f4fd;
+  border: none;
   background-color: var(--OCEAN, #404bbf);
 }
 .review-form-checkbox:focus
