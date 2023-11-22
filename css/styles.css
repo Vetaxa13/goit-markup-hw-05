@@ -574,6 +574,9 @@ img {
 }
 /* ====================== Review-Form styles/ =====================*/
 .review-form-field-wrapper {
+  margin-bottom: 8px;
+}
+.review-form-field-wrapper-name {
   margin-bottom: 16px;
 }
 .review-form-field-label {
