@@ -574,7 +574,7 @@ img {
 }
 /* ====================== Review-Form styles/ =====================*/
 .review-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-field-label {
   display: block;
@@ -669,21 +669,20 @@ img {
 .privacy-policy-link {
   color: var(--IRIS, #4d5ae5);
 }
-.review-form-checkbox:checked {
-  border: none;
+.review-form-checkbox:focus
+  + .review-form-checkbox-label
+  .review-form-own-checkbox {
+  border: 1px solid rgba(0, 0, 255, 0.5);
 }
 .review-form-checkbox:checked
   + .review-form-checkbox-label
   .review-form-own-checkbox {
+  background-color: var(--OCEAN, #404bbf);
+
   fill: #f4f4fd;
   border: none;
-  background-color: var(--OCEAN, #404bbf);
 }
-.review-form-checkbox:focus
-  + .review-form-checkbox-label
-  .review-form-own-checkbox {
-  border: 2px solid rgba(0, 0, 255, 0.5);
-}
+
 .review-form-btn {
   display: block;
   margin: 0 auto;
